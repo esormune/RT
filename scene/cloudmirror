@@ -1,0 +1,17 @@
+#obj	light	images
+5		1		3
+camera	0.0	-10.0	-2.0
+#light	pos							intensity		r	g	b
+light	0.0		-10.0	-5.0		1.0				1.0	1.0	1.0
+#object	shape	translation			rotate					scale			r	g	b			refl	shine	transparency	ior		image	texture		negative
+object	sphere	-1.0	0.0	0.0		0.0	0.0	0.0				0.5	0.5	0.5		1.0	0.5	0.5			0.5		0		0.0				1.0		1		CLOUD		NO
+object	sphere	0.0	0.0	0.0			0.0	0.0	0.0				0.5	0.5	0.5		1.0	0.5	0.5			0.0		0		0.0				1.0		1		CLOUD		NO
+object	sphere	1.0	0.0	0.0			0.0	0.0	0.0				0.5	0.5	0.5		1.0	0.5	0.5			0.5		0		0.0				1.0		1		CLOUD		NO
+object	plane	0.0	0.0	0.75		0.0	0.0	0.0				4.0	4.0	1.0		1.0	0.4	0.9			0.5		0		0.0				1.0		1		CLOUD		NO
+object	plane	0.0	4.0	0.0			90	0.0	0.0				4	4	4		0.7	0.2	0.2			1.0		0		0.0				1.0		1		NONE		NO
+#image	file						translation		rotate			scale
+image	textures/space.bmp			0.0	0.0			0.0				1.0	1.0
+image	textures/big.bmp			0.0	0.0			0.0				1.0	1.0
+image	textures/whiteflower.bmp	0.0	0.0			0.0				1.0	1.0
+#scene	filter	ambient			r	g	b
+scene	NONE		5			1.0	0.0	0.0
